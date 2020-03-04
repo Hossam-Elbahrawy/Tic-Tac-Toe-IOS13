@@ -51,19 +51,19 @@
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLAYER 1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E3K-QO-bRe">
                                                 <rect key="frame" x="0.0" y="0.0" width="114.5" height="123"/>
-                                                <fontDescription key="fontDescription" name="TradeWinds" family="Trade Winds" pointSize="20"/>
+                                                <fontDescription key="fontDescription" name="TradeWinds" family="Trade Winds" pointSize="17"/>
                                                 <color key="textColor" red="0.94901960780000005" green="0.92156862750000001" blue="0.82745098039999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VS." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1FM-51-LEv">
                                                 <rect key="frame" x="129.5" y="0.0" width="115" height="123"/>
-                                                <fontDescription key="fontDescription" name="TradeWinds" family="Trade Winds" pointSize="40"/>
+                                                <fontDescription key="fontDescription" name="TradeWinds" family="Trade Winds" pointSize="36"/>
                                                 <color key="textColor" red="0.94901960780000005" green="0.21960784310000001" blue="0.35294117650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLAYER 2" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gWb-2p-4PN">
                                                 <rect key="frame" x="259.5" y="0.0" width="114.5" height="123"/>
-                                                <fontDescription key="fontDescription" name="TradeWinds" family="Trade Winds" pointSize="20"/>
+                                                <fontDescription key="fontDescription" name="TradeWinds" family="Trade Winds" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -216,6 +216,8 @@
                         <outlet property="cell6" destination="Q30-IX-SFZ" id="pKa-dY-mky"/>
                         <outlet property="cell7" destination="hgr-cK-aC5" id="mBV-0V-XI8"/>
                         <outlet property="cell8" destination="anp-WV-3jt" id="M0i-QC-KDj"/>
+                        <outlet property="player1Name" destination="E3K-QO-bRe" id="oau-Cp-ZYA"/>
+                        <outlet property="player2Name" destination="gWb-2p-4PN" id="c39-i5-YPE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
