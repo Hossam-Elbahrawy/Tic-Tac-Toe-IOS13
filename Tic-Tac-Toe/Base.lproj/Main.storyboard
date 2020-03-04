@@ -77,18 +77,27 @@
                                                 <state key="normal" title="0" backgroundImage="emptyCell">
                                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="cellPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pgn-HB-vuN"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ldx-53-vJm" userLabel="1">
                                                 <rect key="frame" x="128" y="0.0" width="118" height="123"/>
                                                 <state key="normal" title="1" backgroundImage="emptyCell">
                                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="cellPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PSr-x7-g0F"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CIV-Yw-PO0">
                                                 <rect key="frame" x="256" y="0.0" width="118" height="123"/>
                                                 <state key="normal" title="2" backgroundImage="xCell">
                                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="cellPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6p7-Of-R0O"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -100,18 +109,27 @@
                                                 <state key="normal" title="3" backgroundImage="emptyCell">
                                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="cellPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="78n-cX-u7l"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gpn-l9-ivg">
                                                 <rect key="frame" x="128" y="0.0" width="118" height="123"/>
                                                 <state key="normal" title="4" backgroundImage="oCell">
                                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="cellPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fna-Fq-h65"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qw4-bg-XLL">
                                                 <rect key="frame" x="256" y="0.0" width="118" height="123"/>
                                                 <state key="normal" title="5" backgroundImage="emptyCell">
                                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="cellPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MQT-Oe-2ME"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -123,18 +141,27 @@
                                                 <state key="normal" title="6" backgroundImage="xCell">
                                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="cellPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K0c-w7-X8Q"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hgr-cK-aC5">
                                                 <rect key="frame" x="128" y="0.0" width="118" height="123"/>
                                                 <state key="normal" title="7" backgroundImage="emptyCell">
                                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="cellPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kED-Ih-XrX"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="anp-WV-3jt">
                                                 <rect key="frame" x="256" y="0.0" width="118" height="123"/>
                                                 <state key="normal" title="8" backgroundImage="emptyCell">
                                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="cellPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uWC-jT-kWi"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -155,6 +182,9 @@
                                                         <state key="normal" title="Reset Game">
                                                             <color key="titleColor" red="0.94901960780000005" green="0.21960784310000001" blue="0.35294117650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="resetGamePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H2E-CB-lRs"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -176,6 +206,17 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="cell0" destination="duR-5K-cGO" id="4Kh-HQ-Vhy"/>
+                        <outlet property="cell1" destination="Ldx-53-vJm" id="qgn-rt-V2Z"/>
+                        <outlet property="cell2" destination="CIV-Yw-PO0" id="4Gm-e9-XC3"/>
+                        <outlet property="cell3" destination="itY-9d-H5p" id="UIP-mx-zfO"/>
+                        <outlet property="cell4" destination="gpn-l9-ivg" id="d7W-as-saU"/>
+                        <outlet property="cell5" destination="qw4-bg-XLL" id="zfa-cA-xtV"/>
+                        <outlet property="cell6" destination="Q30-IX-SFZ" id="pKa-dY-mky"/>
+                        <outlet property="cell7" destination="hgr-cK-aC5" id="mBV-0V-XI8"/>
+                        <outlet property="cell8" destination="anp-WV-3jt" id="M0i-QC-KDj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
