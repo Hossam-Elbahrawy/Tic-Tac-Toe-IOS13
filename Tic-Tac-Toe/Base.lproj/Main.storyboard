@@ -24,22 +24,22 @@
                                 <rect key="frame" x="20" y="49" width="374" height="813"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Hna-tZ-BDG">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="123"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="103.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tic" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jVL-3o-W5y">
-                                                <rect key="frame" x="0.0" y="0.0" width="114.5" height="123"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="114.5" height="103.5"/>
                                                 <fontDescription key="fontDescription" name="TradeWinds" family="Trade Winds" pointSize="55"/>
                                                 <color key="textColor" red="0.94901960780000005" green="0.92156862750000001" blue="0.82745098039999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tac" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ll-hX-x0f">
-                                                <rect key="frame" x="129.5" y="0.0" width="115" height="123"/>
+                                                <rect key="frame" x="129.5" y="0.0" width="115" height="103.5"/>
                                                 <fontDescription key="fontDescription" name="TradeWinds" family="Trade Winds" pointSize="55"/>
                                                 <color key="textColor" red="0.94901960780000005" green="0.21960784310000001" blue="0.35294117650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Toe" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fvL-lI-73S">
-                                                <rect key="frame" x="259.5" y="0.0" width="114.5" height="123"/>
+                                                <rect key="frame" x="259.5" y="0.0" width="114.5" height="103.5"/>
                                                 <fontDescription key="fontDescription" name="TradeWinds" family="Trade Winds" pointSize="55"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -47,33 +47,50 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="gl0-Mm-QuL">
-                                        <rect key="frame" x="0.0" y="138" width="374" height="123"/>
+                                        <rect key="frame" x="0.0" y="118.5" width="374" height="103"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLAYER 1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E3K-QO-bRe">
-                                                <rect key="frame" x="0.0" y="0.0" width="114.5" height="123"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="114.5" height="103"/>
                                                 <fontDescription key="fontDescription" name="TradeWinds" family="Trade Winds" pointSize="17"/>
                                                 <color key="textColor" red="0.94901960780000005" green="0.92156862750000001" blue="0.82745098039999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VS." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1FM-51-LEv">
-                                                <rect key="frame" x="129.5" y="0.0" width="115" height="123"/>
+                                                <rect key="frame" x="129.5" y="0.0" width="115" height="103"/>
                                                 <fontDescription key="fontDescription" name="TradeWinds" family="Trade Winds" pointSize="36"/>
                                                 <color key="textColor" red="0.94901960780000005" green="0.21960784310000001" blue="0.35294117650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLAYER 2" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gWb-2p-4PN">
-                                                <rect key="frame" x="259.5" y="0.0" width="114.5" height="123"/>
+                                                <rect key="frame" x="259.5" y="0.0" width="114.5" height="103"/>
                                                 <fontDescription key="fontDescription" name="TradeWinds" family="Trade Winds" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                     </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="G0O-oi-ot0">
+                                        <rect key="frame" x="0.0" y="236.5" width="374" height="103.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  PLAYER 1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A8Q-LY-iRf">
+                                                <rect key="frame" x="0.0" y="0.0" width="187" height="103.5"/>
+                                                <fontDescription key="fontDescription" name="TradeWinds" family="Trade Winds" pointSize="32"/>
+                                                <color key="textColor" red="0.94901960780000005" green="0.92156862750000001" blue="0.82745098039999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WINS!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="stn-D2-2hp">
+                                                <rect key="frame" x="187" y="0.0" width="187" height="103.5"/>
+                                                <fontDescription key="fontDescription" name="TradeWinds" family="Trade Winds" pointSize="32"/>
+                                                <color key="textColor" red="0.94901960780000005" green="0.21960784310000001" blue="0.35294117650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="UJe-0t-mgd" userLabel="firstRow">
-                                        <rect key="frame" x="0.0" y="276" width="374" height="123"/>
+                                        <rect key="frame" x="0.0" y="355" width="374" height="103"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="duR-5K-cGO" userLabel="0">
-                                                <rect key="frame" x="0.0" y="0.0" width="118" height="123"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="118" height="103"/>
                                                 <state key="normal" title="0" backgroundImage="emptyCell">
                                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -82,7 +99,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ldx-53-vJm" userLabel="1">
-                                                <rect key="frame" x="128" y="0.0" width="118" height="123"/>
+                                                <rect key="frame" x="128" y="0.0" width="118" height="103"/>
                                                 <state key="normal" title="1" backgroundImage="emptyCell">
                                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -91,7 +108,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CIV-Yw-PO0">
-                                                <rect key="frame" x="256" y="0.0" width="118" height="123"/>
+                                                <rect key="frame" x="256" y="0.0" width="118" height="103"/>
                                                 <state key="normal" title="2" backgroundImage="xCell">
                                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -102,10 +119,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="6bj-xh-ydJ" userLabel="secondRow">
-                                        <rect key="frame" x="0.0" y="414" width="374" height="123"/>
+                                        <rect key="frame" x="0.0" y="473" width="374" height="103.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="itY-9d-H5p">
-                                                <rect key="frame" x="0.0" y="0.0" width="118" height="123"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="118" height="103.5"/>
                                                 <state key="normal" title="3" backgroundImage="emptyCell">
                                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -114,7 +131,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gpn-l9-ivg">
-                                                <rect key="frame" x="128" y="0.0" width="118" height="123"/>
+                                                <rect key="frame" x="128" y="0.0" width="118" height="103.5"/>
                                                 <state key="normal" title="4" backgroundImage="oCell">
                                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -123,7 +140,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qw4-bg-XLL">
-                                                <rect key="frame" x="256" y="0.0" width="118" height="123"/>
+                                                <rect key="frame" x="256" y="0.0" width="118" height="103.5"/>
                                                 <state key="normal" title="5" backgroundImage="emptyCell">
                                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -134,10 +151,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="qMf-Vs-Nnh" userLabel="thirdRow">
-                                        <rect key="frame" x="0.0" y="552" width="374" height="123"/>
+                                        <rect key="frame" x="0.0" y="591.5" width="374" height="103"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q30-IX-SFZ">
-                                                <rect key="frame" x="0.0" y="0.0" width="118" height="123"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="118" height="103"/>
                                                 <state key="normal" title="6" backgroundImage="xCell">
                                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -146,7 +163,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hgr-cK-aC5">
-                                                <rect key="frame" x="128" y="0.0" width="118" height="123"/>
+                                                <rect key="frame" x="128" y="0.0" width="118" height="103"/>
                                                 <state key="normal" title="7" backgroundImage="emptyCell">
                                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -155,7 +172,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="anp-WV-3jt">
-                                                <rect key="frame" x="256" y="0.0" width="118" height="123"/>
+                                                <rect key="frame" x="256" y="0.0" width="118" height="103"/>
                                                 <state key="normal" title="8" backgroundImage="emptyCell">
                                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -166,13 +183,13 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FZj-Nl-oYr">
-                                        <rect key="frame" x="0.0" y="690" width="374" height="123"/>
+                                        <rect key="frame" x="0.0" y="709.5" width="374" height="103.5"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fOy-io-kvl">
-                                                <rect key="frame" x="0.0" y="0.0" width="374" height="123"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="374" height="103.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Nr-TK-mQq">
-                                                        <rect key="frame" x="107" y="63" width="160" height="50"/>
+                                                        <rect key="frame" x="107" y="43.5" width="160" height="50"/>
                                                         <color key="backgroundColor" red="0.94901960780000005" green="0.92156862750000001" blue="0.82745098039999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="160" id="kLa-dH-T4O"/>
@@ -218,6 +235,9 @@
                         <outlet property="cell8" destination="anp-WV-3jt" id="M0i-QC-KDj"/>
                         <outlet property="player1Name" destination="E3K-QO-bRe" id="oau-Cp-ZYA"/>
                         <outlet property="player2Name" destination="gWb-2p-4PN" id="c39-i5-YPE"/>
+                        <outlet property="playerNamesView" destination="gl0-Mm-QuL" id="PxY-O7-Teg"/>
+                        <outlet property="winnerName" destination="A8Q-LY-iRf" id="rKX-VU-U4W"/>
+                        <outlet property="winnerView" destination="G0O-oi-ot0" id="Re4-CG-Ybl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
