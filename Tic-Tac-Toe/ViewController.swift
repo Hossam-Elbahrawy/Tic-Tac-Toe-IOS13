@@ -139,6 +139,7 @@ class ViewController: UIViewController {
             3,3,3
         ]
         if(currentPlayer == 1 ){
+            winnerName.textColor = UIColor.init(red: 245/255, green: 239/255, blue: 211/255, alpha: 1.0)
             winnerName.text = "PLAYER 1"
         }else{
             winnerName.text = "PLAYER 2"
